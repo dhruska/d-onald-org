@@ -1,27 +1,22 @@
 {
   "name": "d-onald-org",
   "description": "Donald Hruska's personal site",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Donald Hruska <donaldhruska@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.45",
-    "gatsby-link": "^1.6.17",
-    "gatsby-plugin-google-fonts": "^0.0.3",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "next": "^4.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
-  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "prettier": "^1.6.1"
+    "gh-pages": "^1.0.0"
   }
 }
