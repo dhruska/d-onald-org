@@ -1,6 +1,6 @@
-export function formatWork(work) {
+export function formatWork(work, index) {
   return (
-    <div>
+    <div key={index}>
       {work.url ? (
         <a href={work.url} target="_blank">
           {work.company}
@@ -15,6 +15,6 @@ export function formatWork(work) {
   );
 }
 
-export function formatEducation(education) {
-  return <div>{`${education.school} - ${education.degree}`}</div>;
+export function formatEducation(education, index) {
+  return <div key={index}>{`${education.school} - ${education.degree}`}</div>;
 }
