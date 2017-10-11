@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
+import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
 import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css-config";
 
-export default ({ children, title = "Donald Hruska" }) => (
+const Layout = ({ children, title = "Donald Hruska" }) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -64,3 +65,5 @@ export default ({ children, title = "Donald Hruska" }) => (
     `}</style>
   </div>
 );
+
+export default GAWrapper(Layout);
