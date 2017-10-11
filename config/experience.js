@@ -1,40 +1,31 @@
 module.exports = {
-  WORK: [
+  CURRENT_WORK: [
     {
       company: "Orchard AI",
       title: "Co-Founder",
-      dateStart: "August 2017",
-      dateEnd: "Present",
       url: "https://www.orchard.ai"
-    },
+    }
+  ],
+  FORMER_WORK: [
     {
       company: "DRIVIN",
-      title: "Software Engineer",
-      dateStart: "Mar 2016",
-      dateEnd: "Aug 2017"
+      title: "Software Engineer"
     },
     {
       company: "The Tie Bar",
-      title: "Software Engineer",
-      dateStart: "May 2015",
-      dateEnd: "Mar 2016"
+      title: "Software Engineer"
     },
     {
       company: "One North Interactive",
-      title: "Software Developer",
-      dateStart: "Apr 2014",
-      dateEnd: "May 2015"
+      title: "Software Developer"
     },
     {
       company: "Project Leadership Associates",
-      title: "Software Developer",
-      dateStart: "Jun 2013",
-      dateEnd: "Apr 2014"
+      title: "Software Developer"
     },
     {
       company: "Produce Pro Software",
-      title: "Mobile Developer Intern",
-      dateStart: "Summer 2012"
+      title: "Mobile Developer Intern"
     }
   ],
   EDUCATION: [

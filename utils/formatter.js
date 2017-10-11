@@ -1,6 +1,7 @@
 export function formatWork(work, index) {
   return (
     <div key={index}>
+      {`${work.title} @ `}
       {work.url ? (
         <a href={work.url} target="_blank">
           {work.company}
@@ -8,9 +9,6 @@ export function formatWork(work, index) {
       ) : (
         work.company
       )}
-      {` - ${work.title} - ${work.dateStart && work.dateEnd
-        ? `${work.dateStart} - ${work.dateEnd}`
-        : work.dateStart}`}
     </div>
   );
 }
