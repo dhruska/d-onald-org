@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
-import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css-config";
+import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css.config";
 
 const Layout = ({ children, title = "Donald Hruska" }) => (
   <div>
@@ -31,15 +31,20 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
           <li>
             <ActiveLink href="/about" text="About" />
           </li>
+          <li>
+            <ActiveLink href="/photography" text="Photography" />
+          </li>
         </ul>
       </nav>
       {children}
     </section>
-    <style jsx>{`
+    <style jsx global>{`
       body {
-        margin: 0;
+        margin: 2px;
         background-color: ${BACKGROUND_COLOR};
       }
+    `}</style>
+    <style jsx>{`
       h1 {
         color: ${HEADER_TEXT_COLOR};
         font-family: "Courier New", serif;
