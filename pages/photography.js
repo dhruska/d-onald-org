@@ -24,7 +24,9 @@ export default class Photography extends React.Component {
     const width = window.innerWidth;
 
     let columns = 1;
-    if (width >= 1024) {
+    if (width >= 1824) {
+      columns = 4;
+    } else if (width >= 1024) {
       columns = 3;
     } else if (width >= 480) {
       columns = 2;
@@ -38,7 +40,12 @@ export default class Photography extends React.Component {
 
     return (
       <Layout>
-        {columns && <Gallery columns={columns} photos={PHOTOS} />}
+        <div>{columns && <Gallery columns={columns} photos={PHOTOS} />}</div>
+        <style jsx>{`
+          div {
+            margin-top: 12px;
+          }
+        `}</style>
       </Layout>
     );
   }

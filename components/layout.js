@@ -49,6 +49,7 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
         color: ${HEADER_TEXT_COLOR};
         font-family: "Courier New", serif;
         font-size: 1.65em;
+        margin: 0.8em 0;
       }
       section {
         text-align: center;
