@@ -1,7 +1,7 @@
 module.exports = {
   CURRENT_WORK: [
     {
-      company: "Orchard AI",
+      company: "Orchard",
       title: "Co-Founder",
       url: "https://www.orchard.ai"
     }
