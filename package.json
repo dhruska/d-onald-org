@@ -14,7 +14,8 @@
   "main": "n/a",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o docs",
+    "build":
+      "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
