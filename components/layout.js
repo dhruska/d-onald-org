@@ -45,6 +45,10 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
         name="twitter:image"
         content="https://d.onald.org/static/profilePhoto.jpg"
       />
+      <meta
+        name="google-site-verification"
+        content="Wv9dPEU8Ab4cIKSRWzJT4jLY_ZLP45RsxCHWXmx9sQo"
+      />
     </Head>
     <section>
       <h1>Donald Hruska</h1>
