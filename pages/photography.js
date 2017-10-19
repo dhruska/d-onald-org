@@ -42,10 +42,10 @@ export default class Photography extends React.Component {
       <Layout>
         <section>
           {columns && [
-            <Gallery columns={columns} photos={PHOTOS} />,
-            <div>
-              All photography © {new Date().getFullYear()} Donald Hruska. All
-              Rights Reserved.
+            <Gallery columns={columns} photos={PHOTOS} key="1" />,
+            <div key="2">
+              All images © {new Date().getFullYear()} Donald Hruska. All Rights
+              Reserved.
             </div>
           ]}
         </section>
