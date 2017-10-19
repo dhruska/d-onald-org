@@ -8,10 +8,10 @@ import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css.config";
 const Layout = ({ children, title = "Donald Hruska" }) => (
   <div>
     <Head>
-      <title>{title}</title>
       <meta charSet="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+      <title>{title}</title>
       <meta
         name="description"
         content="Software engineer from Chicago, IL. Interested in building high performance, data-driven applications. Skilled in JavaScript, Python, Java, and C#."
@@ -20,10 +20,35 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
         name="keywords"
         content="Software engineering, Chicago, JavaScript, HTML, CSS, Python, Java, C#, University of Illinois at Urbana-Champaign"
       />
+      <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+      <link rel="canonical" href="https://d.onald.org" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://d.onald.org" />
+      <meta property="og:title" content="Donald Hruska" />
+      <meta
+        property="og:image"
+        content="https://d.onald.org/profilePhoto.jpg"
+      />
+      <meta property="og:description" content="Donald Hruska's personal site" />
+      <meta property="og:locale" content="en_US" />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:creator" content="@donaldhruska" />
+      <meta name="twitter:url" content="https://d.onald.org" />
+      <meta name="twitter:title" content="Donald Hruska" />
+      <meta
+        name="twitter:description"
+        content="Donald Hruska's personal site"
+      />
+      <meta
+        name="twitter:image"
+        content="https://d.onald.org/profilePhoto.jpg"
+      />
     </Head>
     <section>
       <h1>Donald Hruska</h1>
-      <nav>
+      <nav role="navigation">
         <ul>
           <li>
             <ActiveLink href="/" text="Home" />
