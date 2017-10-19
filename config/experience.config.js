@@ -14,7 +14,7 @@ module.exports = {
         linkContext: link => {
           return <span> ({link})</span>;
         },
-        text: "Acq. 2017",
+        text: "Acquired",
         url:
           "http://www.chicagotribune.com/bluesky/originals/ct-drivin-acquired-kar-bsi-20170419-story.html"
       }
