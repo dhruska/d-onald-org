@@ -21,7 +21,12 @@ const Layout = ({ children, title = "Donald Hruska", router }) => (
         content="Software engineering, Chicago, JavaScript, HTML, CSS, Python, Java, C#, University of Illinois at Urbana-Champaign"
       />
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
-      <link rel="canonical" href={`https://d.onald.org${router.pathname}`} />
+      <link
+        rel="canonical"
+        href={`https://d.onald.org${router.pathname !== "/"
+          ? router.pathname
+          : ""}`}
+      />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://d.onald.org" />
