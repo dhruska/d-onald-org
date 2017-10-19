@@ -17,7 +17,9 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1006
+      height: 1006,
+      alt:
+        "Aerial view of the Chicago skyline and Willis Tower taken from helicopter"
     },
     {
       src:
@@ -36,7 +38,9 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1143
+      height: 1143,
+      alt:
+        "Chicago skyline and John Hancock building from boat in Lake Michigan"
     },
     {
       src:
@@ -54,7 +58,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1024,
-      height: 1280
+      height: 1280,
+      alt: "Close-up photo of moon"
     },
     {
       src:
@@ -73,7 +78,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1064
+      height: 1064,
+      alt: "Bixby Creek Bridge in Big Sur, California"
     },
     {
       src:
@@ -91,7 +97,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1024,
-      height: 1531
+      height: 1531,
+      alt: "Multnomah Falls at the Columbia River Gorge, Oregon"
     },
     {
       src:
@@ -110,7 +117,9 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1036
+      height: 1036,
+      alt:
+        "Aerial view of the Chicago skyline taken from the south from helicopter"
     },
     {
       src:
@@ -129,7 +138,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1600
+      height: 1600,
+      alt: "Marina Towers with an airplane flying between"
     },
     {
       src:
@@ -148,7 +158,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1067
+      height: 1067,
+      alt: "Alcatraz Island, sailboat, and seagull in San Francisco, California"
     },
     {
       src:
@@ -167,7 +178,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1073
+      height: 1073,
+      alt: "Dog pulling man on skateboard in Monterey, California"
     },
     {
       src:
@@ -186,7 +198,9 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1073
+      height: 1073,
+      alt:
+        "Aerial view of the Chicago skyline and John Hancock building taken from the north from helicopter"
     },
     {
       src:
@@ -204,7 +218,8 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1024,
-      height: 1536
+      height: 1536,
+      alt: "Golden retriever laying on floor"
     },
     {
       src:
@@ -223,7 +238,9 @@ module.exports = {
         "calc(100vw - 8px)"
       ],
       width: 1600,
-      height: 1067
+      height: 1067,
+      alt:
+        "Washington Monument and reflection taken outside of the United States Capitol in Washingotn, D.C."
     },
     {
       src:
@@ -237,7 +254,8 @@ module.exports = {
       ],
       sizes: ["(min-width: 480px) calc(50vw - 6px)", "calc(100vw - 8px)"],
       width: 1600,
-      height: 1067
+      height: 1067,
+      alt: "Collie laying in grass"
     },
     {
       src:
@@ -251,7 +269,8 @@ module.exports = {
       ],
       sizes: ["(min-width: 480px) calc(50vw - 6px)", "calc(100vw - 8px)"],
       width: 1600,
-      height: 1067
+      height: 1067,
+      alt: "Golden Gate Bridge from Baker Beach, San Francisco, California"
     }
   ]
 };
