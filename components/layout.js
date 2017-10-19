@@ -1,11 +1,11 @@
+import { withRouter } from "next/router";
 import Head from "next/head";
-import Link from "next/link";
 
 import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
 import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css.config";
 
-const Layout = ({ children, title = "Donald Hruska" }) => (
+const Layout = ({ children, title = "Donald Hruska", router }) => (
   <div>
     <Head>
       <meta charSet="utf-8" />
@@ -21,7 +21,7 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
         content="Software engineering, Chicago, JavaScript, HTML, CSS, Python, Java, C#, University of Illinois at Urbana-Champaign"
       />
       <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
-      <link rel="canonical" href="https://d.onald.org" />
+      <link rel="canonical" href={`https://d.onald.org${router.pathname}`} />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://d.onald.org" />
@@ -101,4 +101,4 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
   </div>
 );
 
-export default GAWrapper(Layout);
+export default withRouter(GAWrapper(Layout));
