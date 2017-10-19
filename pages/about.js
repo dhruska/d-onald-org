@@ -1,5 +1,9 @@
 import Layout from "../components/layout";
-import { CURRENT_WORK, FORMER_WORK, EDUCATION } from "../config/experience";
+import {
+  CURRENT_WORK,
+  FORMER_WORK,
+  EDUCATION
+} from "../config/experience.config";
 import { formatWork, formatEducation } from "../utils/formatter";
 
 export default () => (

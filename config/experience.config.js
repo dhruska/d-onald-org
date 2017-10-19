@@ -9,7 +9,15 @@ module.exports = {
   FORMER_WORK: [
     {
       company: "DRIVIN",
-      title: "Software Engineer"
+      title: "Software Engineer",
+      additionalInfo: {
+        linkContext: link => {
+          return <span> ({link})</span>;
+        },
+        text: "Acq. 2017",
+        url:
+          "http://www.chicagotribune.com/bluesky/originals/ct-drivin-acquired-kar-bsi-20170419-story.html"
+      }
     },
     {
       company: "The Tie Bar",
