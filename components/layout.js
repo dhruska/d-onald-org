@@ -28,7 +28,7 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
       <meta property="og:title" content="Donald Hruska" />
       <meta
         property="og:image"
-        content="https://d.onald.org/profilePhoto.jpg"
+        content="https://d.onald.org/static/profilePhoto.jpg"
       />
       <meta property="og:description" content="Donald Hruska's personal site" />
       <meta property="og:locale" content="en_US" />
@@ -43,7 +43,7 @@ const Layout = ({ children, title = "Donald Hruska" }) => (
       />
       <meta
         name="twitter:image"
-        content="https://d.onald.org/profilePhoto.jpg"
+        content="https://d.onald.org/static/profilePhoto.jpg"
       />
     </Head>
     <section>
