@@ -41,10 +41,13 @@ export default class Photography extends React.Component {
     return (
       <Layout>
         <section>
-          {columns && <Gallery columns={columns} photos={PHOTOS} />}
-          <div>
-            Donald Hruska © {new Date().getFullYear()} All Rights Reserved
-          </div>
+          {columns && [
+            <Gallery columns={columns} photos={PHOTOS} />,
+            <div>
+              All photography © {new Date().getFullYear()} Donald Hruska. All
+              Rights Reserved.
+            </div>
+          ]}
         </section>
         <style jsx>{`
           section {
