@@ -29,7 +29,7 @@ export default class Contact extends PureComponent {
       <Layout>
         {this.state.submitted && (
           <div className="messageConfirmation">
-            Thanks for your message! I'll get back to you soon.
+            {"Thanks for your message! I'll get back to you soon."}
           </div>
         )}
         <form action={`https://formspree.io/${this.state.email}`} method="POST">
