@@ -68,6 +68,9 @@ const Layout = ({ children, title = "Donald Hruska", router }) => (
           <li>
             <ActiveLink href="/photography" text="Photography" />
           </li>
+          <li>
+            <ActiveLink href="/contact" text="Contact" />
+          </li>
         </ul>
       </nav>
       {children}
