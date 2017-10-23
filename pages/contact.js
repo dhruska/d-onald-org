@@ -1,8 +1,7 @@
 import React, { PureComponent } from "react";
-import { withRouter } from "next/router";
 import Layout from "../components/layout";
 
-class Contact extends PureComponent {
+export default class Contact extends PureComponent {
   constructor(props) {
     super(props);
 
@@ -19,10 +18,16 @@ class Contact extends PureComponent {
     });
   }
 
+  componentDidMount() {
+    if (window.location.search.indexOf("submitted") >= 0) {
+      this.setState({ submitted: true });
+    }
+  }
+
   render() {
     return (
       <Layout>
-        {this.props.router.query.submitted && (
+        {this.state.submitted && (
           <div className="messageConfirmation">
             Thanks for your message! I'll get back to you soon.
           </div>
@@ -41,7 +46,7 @@ class Contact extends PureComponent {
           <input
             type="hidden"
             name="_next"
-            value="https://d.onald.org/contact?submitted=true"
+            value="https://d.onald.org/contact?submitted"
           />
           <input type="hidden" name="_format" value="plain" />
           <input type="text" name="_gotcha" style={{ display: "none" }} />
@@ -86,5 +91,3 @@ class Contact extends PureComponent {
     );
   }
 }
-
-export default withRouter(Contact);
