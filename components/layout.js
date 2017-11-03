@@ -10,7 +10,7 @@ const Layout = ({ children, title = "Donald Hruska", router }) => (
   <div>
     <Head>
       <meta charSet="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <title>{title}</title>
       <meta
