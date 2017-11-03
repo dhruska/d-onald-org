@@ -1,6 +1,7 @@
 import { withRouter } from "next/router";
 import Head from "next/head";
 
+import CssReset from "./cssReset";
 import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
 import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css.config";
@@ -75,6 +76,7 @@ const Layout = ({ children, title = "Donald Hruska", router }) => (
       </nav>
       {children}
     </section>
+    <CssReset />
     <style jsx global>{`
       body {
         margin: 2px;
