@@ -39,7 +39,7 @@ export default class Contact extends PureComponent {
             <label htmlFor="message">Message</label>
           </div>
           <div className="right">
-            <input id="senderName" name="Sender name" required />
+            <input id="senderName" name="Sender name" required type="text" />
             <input id="senderEmail" name="_replyto" required type="email" />
             <textarea id="message" name="Message" required rows="5" />
           </div>

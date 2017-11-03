@@ -2,7 +2,6 @@ export default () => (
   <style jsx global>{`
     input,
     label,
-    select,
     textarea {
       margin: 0;
       border: 0;
@@ -11,7 +10,6 @@ export default () => (
       vertical-align: middle;
       white-space: normal;
       line-height: 1;
-      border-radius: 0;
     }
 
     button {
@@ -20,9 +18,6 @@ export default () => (
       vertical-align: middle;
       white-space: normal;
       line-height: 1;
-      font-size: 13px;
-      font-family: Arial;
-      border-radius: 0;
     }
 
     input:focus {
@@ -37,48 +32,27 @@ export default () => (
     }
 
     button,
-    input[type="reset"],
     input[type="button"],
-    input[type="submit"],
-    input[type="checkbox"],
-    input[type="radio"],
-    select {
+    input[type="submit"] {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      -webkit-border-radius: 0;
     }
 
-    input[type="date"],
-    input[type="datetime"],
-    input[type="datetime-local"],
-    input[type="email"],
-    input[type="month"],
-    input[type="number"],
-    input[type="password"],
-    input[type="range"],
-    input[type="search"],
-    input[type="tel"],
     input[type="text"],
-    input[type="time"],
-    input[type="url"],
-    input[type="week"] {
+    input[type="email"],
+    textarea {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
     }
 
-    input[type="checkbox"],
-    input[type="radio"] {
-      width: 13px;
-      height: 13px;
-    }
-    input[type="search"] {
-      -webkit-appearance: textfield;
-      -webkit-box-sizing: content-box;
-    }
     ::-webkit-search-decoration {
       display: none;
     }
 
     button,
-    input[type="reset"],
     input[type="button"],
     input[type="submit"] {
       overflow: visible;
@@ -94,10 +68,6 @@ export default () => (
     textarea {
       vertical-align: top;
       overflow: auto;
-    }
-
-    select[multiple] {
-      vertical-align: top;
     }
   `}</style>
 );
