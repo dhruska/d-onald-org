@@ -1,6 +1,8 @@
 import React, { PureComponent } from "react";
 import Layout from "../components/layout";
 
+import Fonts from "../general/fonts";
+
 export default class Contact extends PureComponent {
   constructor(props) {
     super(props);
@@ -22,6 +24,8 @@ export default class Contact extends PureComponent {
     if (window.location.search.indexOf("submitted") >= 0) {
       this.setState({ submitted: true });
     }
+
+    Fonts();
   }
 
   render() {
