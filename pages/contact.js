@@ -1,7 +1,8 @@
 import React, { PureComponent } from "react";
-import Layout from "../components/layout";
 
 import Fonts from "../general/fonts";
+import Layout from "../components/layout";
+import SocialIcons from "../components/socialIcons";
 
 export default class Contact extends PureComponent {
   constructor(props) {
@@ -31,6 +32,7 @@ export default class Contact extends PureComponent {
   render() {
     return (
       <Layout>
+        <SocialIcons />
         {this.state.submitted && (
           <div className="messageConfirmation">
             {"Thanks for your message! I'll get back to you soon."}
