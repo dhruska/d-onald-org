@@ -17,7 +17,7 @@ export default () => (
       display: inline-block;
       vertical-align: middle;
       white-space: normal;
-      line-height: 1;
+      line-height: 1.25;
     }
 
     input:focus {
@@ -37,7 +37,6 @@ export default () => (
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      -webkit-border-radius: 0;
     }
 
     input[type="text"],
@@ -46,6 +45,7 @@ export default () => (
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+      -webkit-border-radius: 0px;
     }
 
     ::-webkit-search-decoration {
