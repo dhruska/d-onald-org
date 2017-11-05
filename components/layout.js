@@ -90,20 +90,24 @@ const Layout = ({ children, title = "Donald Hruska", router }) => (
         font-size: 1.65em;
         margin: 0.8em 0;
       }
+
       section {
         text-align: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
       }
+
       ul {
         list-style-type: none;
         padding: 0;
         margin-top: 0;
       }
+
       li {
         display: inline-block;
       }
+
       li:not(:last-child) {
         margin-right: 10px;
       }

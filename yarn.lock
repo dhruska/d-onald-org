@@ -2917,8 +2917,8 @@ netrc@^0.1.4:
   resolved "https://registry.yarnpkg.com/netrc/-/netrc-0.1.4.tgz#6be94fcaca8d77ade0a9670dc460914c94472444"
 
 next@^4.0.1:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-4.1.0.tgz#63828efdbb8a0f44a09ccf5880cf60b27b91ea2e"
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/next/-/next-4.1.4.tgz#75ab0dd17e843bae0bdcdc9da8f1b3edb5ef5437"
   dependencies:
     ansi-html "0.0.7"
     babel-core "6.26.0"
@@ -2959,7 +2959,7 @@ next@^4.0.1:
     pkg-up "2.0.0"
     prop-types "15.6.0"
     prop-types-exact "1.1.1"
-    react-hot-loader "^3.0.0"
+    react-hot-loader "3.1.1"
     recursive-copy "2.0.6"
     send "0.16.1"
     source-map-support "0.4.18"
@@ -3525,7 +3525,7 @@ react-ga@^2.3.5:
   dependencies:
     object-assign "^4.1.1"
 
-react-hot-loader@^3.0.0:
+react-hot-loader@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-3.1.1.tgz#e06db8cd0841c41e3ab0b395b2b774126fc8914e"
   dependencies:
@@ -3536,8 +3536,8 @@ react-hot-loader@^3.0.0:
     source-map "^0.6.1"
 
 react-photo-gallery@^6.0.7:
-  version "6.0.15"
-  resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-6.0.15.tgz#855ecee5c3361758d4b46f5e58fbd4f6cf07cd55"
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-6.0.16.tgz#0c870c5dcf941e0814e145b05c3727af0d005ac1"
   dependencies:
     prop-types "~15.6.0"
 

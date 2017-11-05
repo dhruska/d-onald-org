@@ -1,3 +1,5 @@
+import { BLUE } from "../config/css.config";
+
 export default () => (
   <style jsx global>{`
     input,
@@ -68,6 +70,10 @@ export default () => (
     textarea {
       vertical-align: top;
       overflow: auto;
+    }
+
+    a {
+      color: ${BLUE};
     }
   `}</style>
 );
