@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 
-import Fonts from "../general/fonts";
 import Layout from "../components/layout";
 import SocialIcons from "../components/socialIcons";
 
@@ -25,8 +24,6 @@ export default class Contact extends PureComponent {
     if (window.location.search.indexOf("submitted") >= 0) {
       this.setState({ submitted: true });
     }
-
-    Fonts();
   }
 
   render() {
