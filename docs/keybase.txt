@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/donaldhruska
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://d.onald.org
+  * I am donaldhruska (https://keybase.io/donaldhruska) on keybase.
+  * I have a public key ASDOE9toGmABoiDVoijOqK8FksCPCSJvPPfG6ieVF7Pqxgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120038c1080f6c8b3cde34eddbc9eacdee7b6d406eb3636e9da2772beaac59fec320a",
+      "host": "keybase.io",
+      "kid": "0120ce13db681a6001a220d5a228cea8af0592c08f09226f3cf7c6ea279517b3eac60a",
+      "uid": "47ffe065bad1695d539c7950dd798319",
+      "username": "donaldhruska"
+    },
+    "service": {
+      "hostname": "d.onald.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.23"
+  },
+  "ctime": 1511500915,
+  "expire_in": 504576000,
+  "merkle_root": {
+    "ctime": 1511500798,
+    "hash": "f343a5d3f3b24273bd65aedaed749a4044ddcc41a3c886820f31ea6e8baca1905251323f6fb0bde738b03e00fcd0e0fe62bd14d27550ed69089136f44670ccf2",
+    "seqno": 1741395
+  },
+  "prev": "b1a04787952770fc95a5f24f0cae5188784ea0dc8a6a589286886fee89a90bab",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzhPbaBpgAaIg1aIozqivBZLAjwkibzz3xuonlRez6sYKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDM4YzEwODBmNmM4YjNjZGUzNGVkZGJjOWVhY2RlZTdiNmQ0MDZlYjM2MzZlOWRhMjc3MmJlYWFjNTlmZWMzMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2UxM2RiNjgxYTYwMDFhMjIwZDVhMjI4Y2VhOGFmMDU5MmMwOGYwOTIyNmYzY2Y3YzZlYTI3OTUxN2IzZWFjNjBhIiwidWlkIjoiNDdmZmUwNjViYWQxNjk1ZDUzOWM3OTUwZGQ3OTgzMTkiLCJ1c2VybmFtZSI6ImRvbmFsZGhydXNrYSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZC5vbmFsZC5vcmciLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMyJ9LCJjdGltZSI6MTUxMTUwMDkxNSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTExNTAwNzk4LCJoYXNoIjoiZjM0M2E1ZDNmM2IyNDI3M2JkNjVhZWRhZWQ3NDlhNDA0NGRkY2M0MWEzYzg4NjgyMGYzMWVhNmU4YmFjYTE5MDUyNTEzMjNmNmZiMGJkZTczOGIwM2UwMGZjZDBlMGZlNjJiZDE0ZDI3NTUwZWQ2OTA4OTEzNmY0NDY3MGNjZjIiLCJzZXFubyI6MTc0MTM5NX0sInByZXYiOiJiMWEwNDc4Nzk1Mjc3MGZjOTVhNWYyNGYwY2FlNTE4ODc4NGVhMGRjOGE2YTU4OTI4Njg4NmZlZTg5YTkwYmFiIiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKvnnkD2Zi2+/1RNNkKNlPLiSh1DJt4lpXAUEM2hHxChWCM6kbsFwBGxUXkxxHSZOkiuiJIXAEAgCBef6peCdwyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDiH2CASrUzw8zb61oUQPt47fybkclCDOv2B0tJJv1kyqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/donaldhruska
+
+==================================================================
