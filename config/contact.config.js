@@ -26,11 +26,6 @@ module.exports = {
       url: "https://github.com/dhruska"
     },
     {
-      title: "Snapchat",
-      iconName: "icon-snapchat-ghost",
-      url: "https://www.snapchat.com/add/dpear"
-    },
-    {
       title: "Hacker News",
       iconName: "icon-y-combinator",
       url: "https://news.ycombinator.com/user?id=donjh"

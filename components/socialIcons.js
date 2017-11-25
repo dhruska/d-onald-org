@@ -5,7 +5,6 @@ import {
   LINKEDIN_BLUE,
   ANGELLIST_GREY,
   GITHUB_GREY,
-  SNAPCHAT_YELLOW,
   HACKERNEWS_ORANGE
 } from "../config/css.config";
 
@@ -58,10 +57,6 @@ export default () => (
 
       .icon-github-circled:hover {
         color: ${GITHUB_GREY};
-      }
-
-      .icon-snapchat-ghost:hover {
-        color: ${SNAPCHAT_YELLOW};
       }
 
       .icon-y-combinator:hover {

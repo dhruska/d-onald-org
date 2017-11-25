@@ -7,6 +7,5 @@ module.exports = {
   LINKEDIN_BLUE: "#0077b5",
   ANGELLIST_GREY: "#333333",
   GITHUB_GREY: "#24292e",
-  SNAPCHAT_YELLOW: "#fffc00",
   HACKERNEWS_ORANGE: "#ff6600"
 };
