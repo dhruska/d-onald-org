@@ -2916,7 +2916,7 @@ netrc@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/netrc/-/netrc-0.1.4.tgz#6be94fcaca8d77ade0a9670dc460914c94472444"
 
-next@^4.0.1:
+next@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/next/-/next-4.1.4.tgz#75ab0dd17e843bae0bdcdc9da8f1b3edb5ef5437"
   dependencies:
@@ -3535,9 +3535,9 @@ react-hot-loader@3.1.1:
     redbox-react "^1.3.6"
     source-map "^0.6.1"
 
-react-photo-gallery@^6.0.7:
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-6.0.16.tgz#0c870c5dcf941e0814e145b05c3727af0d005ac1"
+react-photo-gallery@^6.0.17:
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-6.0.17.tgz#405336e3384e9363af23e409cff9d39c8b26ae32"
   dependencies:
     prop-types "~15.6.0"
 
