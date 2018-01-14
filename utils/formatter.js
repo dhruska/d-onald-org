@@ -1,7 +1,7 @@
 export function formatWork(work, index) {
   return (
     <div key={index}>
-      {`${work.title} @ `}
+      {work.title && `${work.title} @ `}
       {formatTextOrLink({ text: work.company, url: work.url })}
       {work.additionalInfo && formatTextOrLink(work.additionalInfo)}
     </div>

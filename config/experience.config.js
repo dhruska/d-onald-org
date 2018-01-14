@@ -9,7 +9,6 @@ module.exports = {
   FORMER_WORK: [
     {
       company: "DRIVIN",
-      title: "Software Engineer",
       additionalInfo: {
         linkContext: link => {
           return <span> ({link})</span>;
@@ -20,20 +19,16 @@ module.exports = {
       }
     },
     {
-      company: "The Tie Bar",
-      title: "Software Engineer"
+      company: "The Tie Bar"
     },
     {
-      company: "One North Interactive",
-      title: "Software Developer"
+      company: "One North Interactive"
     },
     {
-      company: "Project Leadership Associates",
-      title: "Software Developer"
+      company: "Project Leadership Associates"
     },
     {
-      company: "Produce Pro Software",
-      title: "Mobile Developer Intern"
+      company: "Produce Pro Software"
     }
   ],
   EDUCATION: [
