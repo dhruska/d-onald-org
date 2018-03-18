@@ -37,8 +37,8 @@ export default class Contact extends PureComponent {
         )}
         <form action={`https://formspree.io/${this.state.email}`} method="POST">
           <div className="left">
-            <label htmlFor="senderName">Your Name</label>
-            <label htmlFor="senderEmail">Your Email Address</label>
+            <label htmlFor="senderName">Your name</label>
+            <label htmlFor="senderEmail">Your email address</label>
             <label htmlFor="message">Message</label>
           </div>
           <div className="right">
@@ -69,7 +69,7 @@ export default class Contact extends PureComponent {
           label {
             display: block;
             margin-right: 5px;
-            margin-top: 5px;
+            margin-top: 10px;
           }
           input {
             height: 14px;
@@ -79,12 +79,12 @@ export default class Contact extends PureComponent {
             display: block;
             width: 150px;
             margin-left: 5px;
-            margin-top: 5px;
+            margin-top: 10px;
             padding: 1px;
             border: 1px #dddddd solid;
           }
           button {
-            margin-top: 10px;
+            margin-top: 30px;
           }
           .messageConfirmation {
             margin: 15px 0 25px;

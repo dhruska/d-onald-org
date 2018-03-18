@@ -1,7 +1,8 @@
 module.exports = {
-  BACKGROUND_COLOR: "#f2f2f2",
+  BACKGROUND_COLOR: "#fefefe",
   HEADER_TEXT_COLOR: "#000000",
-  BLUE: "#26547c",
+  FONT_FAMILY: "Helvetica, Arial, sans-serif",
+  BLUE: "#1541ab",
   TWITTER_BLUE: "#1da1f2",
   INSTAGRAM_PURPLE: "#8a3ab9",
   LINKEDIN_BLUE: "#0077b5",

@@ -6,7 +6,11 @@ import Fonts from "../general/fonts";
 import CssReset from "./cssReset";
 import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
-import { BACKGROUND_COLOR, HEADER_TEXT_COLOR } from "../config/css.config";
+import {
+  BACKGROUND_COLOR,
+  HEADER_TEXT_COLOR,
+  FONT_FAMILY
+} from "../config/css.config";
 
 class Layout extends React.Component {
   constructor(props) {
@@ -39,9 +43,11 @@ class Layout extends React.Component {
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
           <link
             rel="canonical"
-            href={`https://d.onald.org${this.props.router.pathname !== "/"
-              ? this.props.router.pathname
-              : ""}`}
+            href={`https://d.onald.org${
+              this.props.router.pathname !== "/"
+                ? this.props.router.pathname
+                : ""
+            }`}
           />
 
           <meta property="og:type" content="website" />
@@ -99,14 +105,17 @@ class Layout extends React.Component {
           body {
             margin: 2px;
             background-color: ${BACKGROUND_COLOR};
+            font-family: ${FONT_FAMILY};
+            font-weight: 300;
+            line-height: 1.5em;
           }
         `}</style>
         <style jsx>{`
           h1 {
             color: ${HEADER_TEXT_COLOR};
-            font-family: "Courier New", serif;
-            font-size: 1.65em;
-            margin: 0.8em 0;
+            font-weight: inherit;
+            font-size: 2em;
+            margin: 1.5em 0 1em;
           }
 
           section {
@@ -127,7 +136,7 @@ class Layout extends React.Component {
           }
 
           li:not(:last-child) {
-            margin-right: 10px;
+            margin-right: 20px;
           }
         `}</style>
       </div>
