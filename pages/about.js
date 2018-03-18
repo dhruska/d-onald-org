@@ -1,10 +1,8 @@
 import Layout from "../components/layout";
-import {
-  CURRENT_WORK,
-  FORMER_WORK,
-  EDUCATION
-} from "../config/experience.config";
+import EXPERIENCE from "../config/experience.config";
 import { formatWork, formatEducation } from "../utils/formatter";
+
+const { CURRENT_WORK, FORMER_WORK, EDUCATION } = EXPERIENCE;
 
 export default () => (
   <Layout>

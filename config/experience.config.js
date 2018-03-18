@@ -1,4 +1,4 @@
-module.exports = {
+const EXPERIENCE = {
   CURRENT_WORK: [
     {
       company: "Orchard",
@@ -38,3 +38,5 @@ module.exports = {
     }
   ]
 };
+
+export default EXPERIENCE;
