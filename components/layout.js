@@ -34,11 +34,11 @@ class Layout extends React.Component {
           <title>{this.props.title}</title>
           <meta
             name="description"
-            content="Software engineer from Chicago, IL and Co-founder of Orchard. Interested in building high performance, data-driven applications."
+            content="Software engineer from Chicago, IL and Co-founder of Draftbit. Interested in building high performance, data-driven applications."
           />
           <meta
             name="keywords"
-            content="Software engineering, Orchard, Chicago, JavaScript, HTML, CSS, Python, Java, C#, University of Illinois at Urbana-Champaign"
+            content="Software engineering, Draftbit, Chicago, JavaScript, HTML, CSS, Python, Java, C#, University of Illinois at Urbana-Champaign"
           />
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
           <link

@@ -1,9 +1,9 @@
 const EXPERIENCE = {
   CURRENT_WORK: [
     {
-      company: "Orchard",
+      company: "Draftbit",
       title: "Co-Founder",
-      url: "https://www.orchard.ai"
+      url: "https://www.draftbit.com"
     }
   ],
   FORMER_WORK: [
