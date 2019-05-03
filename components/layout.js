@@ -81,17 +81,19 @@ class Layout extends React.Component {
           />
         </Head>
         <section>
-          <h1>Donald Hruska</h1>
+          <ActiveLink href="/" style={{ textDecoration: "none" }}>
+            <h1>Donald Hruska</h1>
+          </ActiveLink>
           <nav role="navigation">
             <ul>
               <li>
-                <ActiveLink href="/" text="Home" />
+                <ActiveLink href="/about">About</ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/about" text="About" />
+                <ActiveLink href="/photography">Photography</ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/photography" text="Photography" />
+                <ActiveLink href="/contact">Contact</ActiveLink>
               </li>
               <li>
                 <ActiveLink href="/contact" text="Contact" />
