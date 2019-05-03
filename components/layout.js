@@ -96,7 +96,7 @@ class Layout extends React.Component {
                 <ActiveLink href="/contact">Contact</ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/contact" text="Contact" />
+                <a href="https://blog.d.onald.org" target="_blank" rel="noopener">Blog</a>
               </li>
             </ul>
           </nav>
