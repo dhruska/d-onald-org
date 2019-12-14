@@ -83,6 +83,12 @@ export default () => (
         width: 100%;
       }
 
+      @media screen and (max-width: 480px) {
+        a:hover:after {
+          width: 0;
+        }
+      }
+
       #draftbit {
         color: #5a45ff;
       }
