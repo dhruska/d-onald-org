@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SocialIcons from "../components/socialIcons";
 
 const Contact = () => {
-  const submitted = window.location.search.indexOf("submitted") >= 0;
+  const submitted = process.browser && window.location.search.indexOf("submitted") >= 0;
 
   return (
     <Layout>
