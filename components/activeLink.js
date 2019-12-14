@@ -6,7 +6,7 @@ const ActiveLink = ({ href, router, style, children }) => {
     return <span style={style}>{children}</span>;
   } else {
     return (
-      <Link prefetch href={href}>
+      <Link href={href}>
         <a style={style}>{children}</a>
       </Link>
     );

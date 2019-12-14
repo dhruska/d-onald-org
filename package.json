@@ -9,7 +9,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-ga": "^2.4.1",
-    "react-photo-gallery": "^6.0.22"
+    "react-photo-gallery": "^8.0.0"
   },
   "scripts": {
     "dev": "next",
