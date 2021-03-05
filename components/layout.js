@@ -27,7 +27,7 @@ class Layout extends React.Component {
           <title>{this.props.title}</title>
           <meta
             name="description"
-            content="Donald Hruska ia a software engineer and the Co-founder of Draftbit"
+            content="Donald Hruska is a software engineer and the Co-founder of Draftbit"
           />
           <meta
             name="keywords"
