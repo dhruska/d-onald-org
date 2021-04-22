@@ -14,7 +14,7 @@ const Contact = () => {
           {"Thanks for your message! I'll get back to you soon."}
         </div>
       )}
-      <form action={`https://formspree.io/contact@donald.cool`} method="POST">
+      <form action="https://formspree.io/f/xqkwawdj" method="POST">
         <div className="left">
           <label htmlFor="senderName">Your name</label>
           <label htmlFor="senderEmail">Your email address</label>
