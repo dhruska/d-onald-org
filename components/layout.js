@@ -27,11 +27,11 @@ class Layout extends React.Component {
           <title>{this.props.title}</title>
           <meta
             name="description"
-            content="Donald Hruska is a software engineer and the Co-founder of Draftbit"
+            content="Donald Hruska is a software engineer located in San Francisco, CA"
           />
           <meta
             name="keywords"
-            content="Software engineering, Draftbit, Startups, Y Combinator, San Francisco, University of Illinois at Urbana-Champaign"
+            content="Software engineering, Retool, Draftbit, Startups, Y Combinator, San Francisco, University of Illinois at Urbana-Champaign"
           />
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
           <link

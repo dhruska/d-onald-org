@@ -3,32 +3,35 @@ import Layout from "../components/layout";
 export default () => (
   <Layout>
     <h4>
-      Hi, I'm Donald. I'm the Co-founder and VP Engineering of{" "}
+      Hello, I'm Donald — a software engineer and engineering manager based in San Francisco. I'm leading a talented team at{" "}
+      <a href="https://retool.com" target="_blank" id="retool">
+        Retool
+      </a>, where we're working to reshape the way software is built.
+      <br />
+      <br />
+      Prior to Retool, I co-founded{" "}
       <a href="https://draftbit.com" target="_blank" id="draftbit">
         Draftbit
-      </a>
-      . We're creating a new way to build mobile apps on the web. We're backed by some amazing
-      investors, including{" "}
+      </a>{" "}
+      and served as its VP of Engineering for over five years. At Draftbit, we pioneered a new way to build mobile apps on the web, garnering the support of investors including{" "}
       <a
         href="https://techcrunch.com/2019/08/20/here-are-the-82-startups-that-launched-on-day-2-of-ycs-s19-demo-days"
         target="_blank"
         id="ycombinator"
       >
         Y Combinator
-      </a>
-      . I live in San Francisco.
+      </a>, Floodgate, and Fuel Capital.
       <br />
       <br />
-      Prior to Draftbit, I spent some time at a number of different startups and agencies in
-      Chicago. Most recently I was at{" "}
+      I've spent time at a variety of startups and agencies, including{" "}
       <a
         href="https://www.chicagotribune.com/business/blue-sky/ct-drivin-acquired-kar-bsi-20170419-story.html"
         target="_blank"
         id="drivin"
       >
         DRIVIN
-      </a>
-      , an exited startup that was building data and analytics software for the auto industry.
+      </a>{" "}
+      (acquired in 2017), where I was the tech lead on the team building the company's flagship product.
       <br />
       <br />I have a background in computer engineering and graduated from the{" "}
       <a href="https://ece.illinois.edu" target="_blank" id="uiuc">
@@ -37,11 +40,7 @@ export default () => (
       .
       <br />
       <br />
-      If you'd like to get in touch, reach out to me{" "}
-      <a href="/contact" id="contact">
-        here
-      </a>{" "}
-      or on{" "}
+      If you'd like to get in touch, reach out to me here or on{" "}
       <a href="https://www.twitter.com/donaldhruska" target="_blank" id="twitter">
         Twitter
       </a>
@@ -87,6 +86,14 @@ export default () => (
         a:hover:after {
           width: 0;
         }
+      }
+
+      #retool {
+        color: #58565b;
+      }
+
+      #retool:after {
+        background: #58565b;
       }
 
       #draftbit {

@@ -1,12 +1,17 @@
 const EXPERIENCE = {
   CURRENT_WORK: [
     {
-      company: "Draftbit",
-      title: "Co-Founder",
-      url: "https://www.draftbit.com"
+      company: "Retool",
+      title: "Engineering Manager",
+      url: "https://www.retool.com"
     }
   ],
   FORMER_WORK: [
+    {
+      company: "Draftbit",
+      title: "Co-Founder",
+      url: "https://www.draftbit.com"
+    },
     {
       company: "DRIVIN",
       additionalInfo: {
