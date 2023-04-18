@@ -6,8 +6,8 @@ const ActiveLink = ({ href, router, style, children }) => {
     return <span style={style}>{children}</span>;
   } else {
     return (
-      <Link href={href}>
-        <a style={style}>{children}</a>
+      <Link href={href} style={style}>
+        {children}
       </Link>
     );
   }

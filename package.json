@@ -5,9 +5,9 @@
   "author": "Donald Hruska <donaldhruska@gmail.com>",
   "dependencies": {
     "fontfaceobserver": "^2.1.0",
-    "next": "^9.3.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-ga": "^2.7.0",
     "react-photo-gallery": "^8.0.0"
   },
