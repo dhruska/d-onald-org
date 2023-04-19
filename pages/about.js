@@ -30,8 +30,8 @@ export default () => (
         id="drivin"
       >
         DRIVIN
-      </a>{" "}
-      (acquired in 2017), where I was the tech lead on the team building the company's flagship product.
+      </a>,{" "}
+      where I led the team building the company's flagship product until the company's acquisition in 2017.
       <br />
       <br />I have a background in computer engineering and graduated from the{" "}
       <a href="https://ece.illinois.edu" target="_blank" id="uiuc">
