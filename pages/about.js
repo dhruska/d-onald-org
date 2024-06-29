@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 export default () => (
   <Layout>
     <h4>
-      Hello, I'm Donald — a software engineer and engineering manager based in San Francisco. I'm leading a talented team at{" "}
+      Hello, I'm Donald — a software engineer and engineering manager based in San Francisco. I lead the App UI and Mobile teams at{" "}
       <a href="https://retool.com" target="_blank" id="retool">
         Retool
       </a>, where we're working to reshape the way software is built.
@@ -13,7 +13,7 @@ export default () => (
       <a href="https://draftbit.com" target="_blank" id="draftbit">
         Draftbit
       </a>{" "}
-      and served as its VP of Engineering for over five years. At Draftbit, we pioneered a new way to build mobile apps on the web, garnering the support of investors including{" "}
+      and spent five years building and leading the team as VP of Engineering. At Draftbit, we created a new way to build mobile apps on the web, with the support of {" "}
       <a
         href="https://techcrunch.com/2019/08/20/here-are-the-82-startups-that-launched-on-day-2-of-ycs-s19-demo-days"
         target="_blank"
@@ -31,7 +31,7 @@ export default () => (
       >
         DRIVIN
       </a>,{" "}
-      where I led the team building the company's flagship product until the company's acquisition in 2017.
+      where I led the team building the company's core inventory management product until the company's acquisition in 2017.
       <br />
       <br />I have a background in computer engineering and graduated from the{" "}
       <a href="https://ece.illinois.edu" target="_blank" id="uiuc">
