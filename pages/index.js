@@ -22,6 +22,12 @@ export default () => (
         font-size: 14px;
       }
 
+      li {
+        line-height: 1.25em;
+        margin: 0.5em 1em 0;
+        text-indent: -1em;
+      }
+
       a {
         color: inherit;
       }
