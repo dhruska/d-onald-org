@@ -19,12 +19,12 @@ export default () => (
       ul {
         list-style-type: none;
         padding-left: 0;
-        font-size: 14px;
+        font-size: 15px;
       }
 
       li {
-        line-height: 1.25em;
-        margin: 0.5em 1em 0;
+        line-height: 1.35em;
+        margin: 0.4em 1em 0;
         text-indent: -1em;
       }
 
