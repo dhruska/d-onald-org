@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 export default () => (
   <Layout>
     <h4>
-      Hello, I'm Donald — a software engineer and engineering manager based in San Francisco. I lead the App UI and Mobile teams at{" "}
+      Hello, I'm Donald — a software engineer and engineering manager based in San Francisco. I lead the UI Experience and Mobile teams at{" "}
       <a href="https://retool.com" target="_blank" id="retool">
         Retool
       </a>, where we're working to reshape the way software is built.
