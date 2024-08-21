@@ -34,11 +34,13 @@ class Layout extends React.Component {
             content="Software engineering, Retool, Draftbit, Startups, Y Combinator, San Francisco, University of Illinois at Urbana-Champaign"
           />
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet" />
           <link
             rel="canonical"
-            href={`https://d.onald.org${
-              this.props.router.pathname !== "/" ? this.props.router.pathname : ""
-            }`}
+            href={`https://d.onald.org${this.props.router.pathname !== "/" ? this.props.router.pathname : ""
+              }`}
           />
 
           <meta property="og:type" content="website" />
@@ -89,8 +91,8 @@ class Layout extends React.Component {
             margin: 2px;
             background-color: ${BACKGROUND_COLOR};
             font-family: ${FONT_FAMILY};
-            font-weight: 300;
-            line-height: 1.5em;
+            font-weight: 400;
+            font-style: normal;
           }
         `}</style>
         <style jsx>{`
