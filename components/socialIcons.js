@@ -22,8 +22,8 @@ export default () => (
     <style jsx>{`
       ul {
         list-style-type: none;
-        margin: 20px 0 30px;
-        padding: 0;
+        padding: 20px 0;
+        margin: 0;
       }
 
       li {
@@ -37,6 +37,10 @@ export default () => (
 
       i:before {
         margin: 0 7px;
+      }
+
+      .icon-twitter::before {
+        margin-left: 0;
       }
 
       .icon-twitter:hover {

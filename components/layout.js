@@ -6,6 +6,7 @@ import Fonts from "../general/fonts";
 import CssReset from "./cssReset";
 import GAWrapper from "./gaWrapper";
 import ActiveLink from "./activeLink";
+import SocialIcons from "../components/socialIcons";
 import { BACKGROUND_COLOR, HEADER_TEXT_COLOR, FONT_FAMILY } from "../config/css.config";
 
 class Layout extends React.Component {
@@ -19,7 +20,7 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -61,20 +62,20 @@ class Layout extends React.Component {
             content="Wv9dPEU8Ab4cIKSRWzJT4jLY_ZLP45RsxCHWXmx9sQo"
           />
         </Head>
-        <section>
+        <main>
           <ActiveLink href="/" style={{ textDecoration: "none" }}>
             <h1>Donald Hruska</h1>
           </ActiveLink>
           <nav role="navigation">
             <ul>
               <li>
-                <ActiveLink href="/about">About</ActiveLink>
+                <ActiveLink href="/" style={{ color: "inherit" }}>About</ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/photography">Photography</ActiveLink>
+                <ActiveLink href="/photography" style={{ color: "inherit" }}>Photography</ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/contact">Contact</ActiveLink>
+                <ActiveLink href="/contact" style={{ color: "inherit" }}>Contact</ActiveLink>
               </li>
               {/**<li>
                 <a href="https://blog.d.onald.org" target="_blank" rel="noopener">
@@ -84,15 +85,21 @@ class Layout extends React.Component {
             </ul>
           </nav>
           {this.props.children}
-        </section>
+          <SocialIcons />
+        </main>
         <CssReset />
         <style jsx global>{`
+          html, body, #__next, main {
+            height: 100%;
+          }
+
           body {
-            margin: 2px;
+            margin: 0;
             background-color: ${BACKGROUND_COLOR};
             font-family: ${FONT_FAMILY};
             font-weight: 400;
             font-style: normal;
+            line-height: 1.5em;
           }
         `}</style>
         <style jsx>{`
@@ -103,11 +110,18 @@ class Layout extends React.Component {
             margin: 1.5em 0 1em;
           }
 
-          section {
-            text-align: center;
+          main {
             display: flex;
-            justify-content: center;
             flex-direction: column;
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 12px;
+          }
+
+          @media screen and (max-width: 1063px) {
+            main {
+              max-width: 768px;
+            }
           }
 
           ul {
@@ -124,7 +138,7 @@ class Layout extends React.Component {
             margin-right: 20px;
           }
         `}</style>
-      </div>
+      </>
     );
   }
 }
