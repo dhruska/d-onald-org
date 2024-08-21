@@ -19,6 +19,7 @@ export default () => (
       ul {
         list-style-type: none;
         padding-left: 0;
+        font-size: 14px;
       }
 
       a {
