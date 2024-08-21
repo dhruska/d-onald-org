@@ -22,7 +22,7 @@ export default () => (
     <style jsx>{`
       ul {
         list-style-type: none;
-        padding: 20px 0;
+        padding: 10px 0;
         margin: 0;
       }
 
