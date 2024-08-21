@@ -74,11 +74,11 @@ class Layout extends React.Component {
               <li>
                 <ActiveLink href="/contact">Contact</ActiveLink>
               </li>
-              <li>
+              {/**<li>
                 <a href="https://blog.d.onald.org" target="_blank" rel="noopener">
                   Blog
                 </a>
-              </li>
+              </li>**/}
             </ul>
           </nav>
           {this.props.children}
