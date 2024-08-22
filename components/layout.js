@@ -26,6 +26,14 @@ class Layout extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <title>{this.props.title}</title>
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Donald Hruska",
+              "url": "https://d.onald.org"
+            })}
+          </script>
           <meta
             name="description"
             content="Donald Hruska is a software engineer based in San Francisco, CA"
@@ -47,6 +55,7 @@ class Layout extends React.Component {
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://d.onald.org" />
           <meta property="og:title" content="Donald Hruska" />
+          <meta property="og:site_name" content="Donald Hruska" />
           <meta property="og:image" content="https://d.onald.org/static/profilePhoto.jpg" />
           <meta property="og:description" content="Donald Hruska's personal site" />
           <meta property="og:locale" content="en_US" />
