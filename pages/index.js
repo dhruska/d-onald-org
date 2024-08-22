@@ -28,6 +28,10 @@ export default () => (
         text-indent: -1em;
       }
 
+      li:not(:first-child) {
+        opacity: 0.55;
+      }
+
       a {
         color: inherit;
       }
