@@ -26,14 +26,16 @@ class Layout extends React.Component {
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <title>{this.props.title}</title>
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Donald Hruska",
-              "url": "https://d.onald.org"
-            })}
-          </script>
+
+          <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Donald Hruska",
+                "url": "https://d.onald.org"
+              })
+            }} />
           <meta
             name="description"
             content="Donald Hruska is a software engineer based in San Francisco, CA"
